@@ -2,8 +2,12 @@
 
 This repo contains lab solutions of `Computer-Hardware-and-Organization-CS220` course for 2020-21-II Semester.
 
-# Setup for Verilog
-## Installation on Windows system: 
+
+
+## Setup for Verilog
+
+
+### Installation on Windows system: 
 Download `iverilog-v11-20201123-x64_setup.exe` from http://bleyer.org/icarus/. Run
 the downloaded installer. When asked for a folder to install, specify
 c:\iverilog (this is the default). Just keep clicking next. At one place,
@@ -42,9 +46,18 @@ a list of signals in the rectangle below. Double-click on clk. This will
 show the clock signal in the adjacent big box. Double-click on `dout[4:0]`.
 This will show the state machine's output signal.
 
-## Installation on Linux systems: 
-Please follow the instructions in this page according to your Linux OS:
-https://iverilog.fandom.com/wiki/Installation_Guide. To install gtkwave on
-ubuntu, just do apt-get install gtkwave. To check your installation,
+
+### Installation on Linux systems: 
+Please follow the instructions in this page according to your Linux OS:\
+https://iverilog.fandom.com/wiki/Installation_Guide.\
+To install gtkwave on ubuntu, just do apt-get install gtkwave. To check your installation,
 please see the instructions for checking the installation on Windows as
-outlined above.
+outlined above. 
+
+
+
+## Setup for SPIM
+Follow the instructions on this page to download and install SPIM
+on your home machine.
+
+http://spimsimulator.sourceforge.net/
